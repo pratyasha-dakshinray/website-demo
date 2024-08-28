@@ -77,6 +77,33 @@ html, body {
 } 
 
 #basefooter a {
-    color: #fbf8f8;
+    color: #ffffff;
+    text-transform: uppercase;
     text-decoration: none;
 }
+
+#basefooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 2vw;
+    bottom: 3%;
+    position: absolute;
+    bottom: 0;
+}
+
+#basefooter #iconset{
+    display: flex;
+    gap: 10px;
+}
+#basefooter .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #888;
+}
+
