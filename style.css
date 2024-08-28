@@ -107,3 +107,56 @@ html, body {
     background-color: #888;
 }
 
+#second{
+    padding-top: 50px;
+    color: #fff;
+    background-color: black;
+    width: 100%;
+    height: 120vh;
+   
+    
+}
+
+.element1{
+    width: 100%;
+    border-top: 1px solid #d6d5d5;
+    padding: 2vw 3vw;
+    font-size: 3vw;
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element2{
+    width: 100%;
+    border-top: 1px solid #d6d5d5;
+    padding: 2vw 3vw;
+    font-size: 3vw;
+    opacity: .7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element3{
+    width: 100%;
+    border-top: 1px solid #d6d5d5;
+    padding: 2vw 3vw;
+    font-size: 3vw;
+    opacity: .7;
+    border-bottom: 1px solid #d6d5d5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#elem{
+    position: relative;
+}
+
+#elem img{
+    position: absolute;
+    height: 28%;
+    z-index: 999;
+    opacity: 0;
+}
